@@ -1,0 +1,28 @@
+body {
+    background-image: url(./assets/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.places {
+    color: white;
+    padding: 15px;
+}
+
+.awesomeplaces {
+    color: white;
+    margin: 180px 50px;
+}
+
+.frase {
+    color: white;
+    margin-top: -165px;
+    padding-top: -165px;
+    margin-left: 53px;
+}
+
+a.button {
+    margin-left: 53px;
+    color: white
+}
