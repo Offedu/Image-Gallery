@@ -26,3 +26,46 @@ a.button {
     margin-left: 53px;
     color: white
 }
+
+
+/*IMGS.HTML*/
+
+/* Define um elemento com a classe "img-gallery" como um contêiner de imagens em grade */
+.img-gallery {
+    /* Largura do contêiner como 80% do contêiner pai */
+    width: 80%;
+  
+    /* Margens superior e inferior de 100px, margens laterais automáticas para centralizar horizontalmente */
+    margin: 100px auto 50px;
+  
+    /* Define o contêiner como uma grade */
+    display: grid;
+  
+    /* Define o layout das colunas da grade com largura mínima de 250px e fração 1fr para se expandir */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  
+    /* Define o espaçamento entre as células da grade como 30px */
+    grid-gap: 30px;
+  }
+  
+  /* Define estilo para as tags de imagem dentro do elemento com a classe "img-gallery" */
+  .img-gallery img {
+    /* Faz as imagens se ajustarem ao tamanho do contêiner que as envolve */
+    width: 100%;
+  
+    /* Define o cursor do mouse como um ponteiro quando o mouse está sobre a imagem */
+    cursor: pointer;
+  }
+  
+  /* Define estilo para as tags de imagem dentro do elemento com a classe "img-gallery" quando o mouse está sobre elas */
+  .img-gallery img:hover {
+    /* Reduz a escala das imagens em 20% e as rotaciona em -15 graus no sentido anti-horário */
+    transform: scale(0.8) rotate(-15deg);
+  
+    /* Define bordas arredondadas com um raio de 20px */
+    border-radius: 20px;
+  
+    /* Adiciona uma sombra na imagem */
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+  }
+  
